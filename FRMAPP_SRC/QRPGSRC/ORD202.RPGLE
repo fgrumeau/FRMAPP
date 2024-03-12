@@ -2,7 +2,6 @@
       * %TEXT Order detail                                                                *
       *%EMETADATA                                                                         *
 
-     h dftactgrp(*no) bnddir('SAMPLE')
 
      fcustome1  if   e           k disk
      farticle1  if   e           k disk

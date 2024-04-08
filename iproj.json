@@ -1,0 +1,20 @@
+{
+    "description": "From an IBMi Application",
+    "version": "0.0.1",
+    "includePath": [
+        "FRMAPP_SRC/QPROTOSRC"
+    ],
+    "repository": "git@github.com:fgrumeau/FRMAPP.git",
+    "objlib": "&verlibfrmapp",
+    "curlib": "*CRTDFT",
+    "extensions": {
+        "arcad": {
+            "code": "FRMAPP",
+            "libraryPrefix": "FRA",
+            "iasp": "*SYSBAS",
+            "validated": true
+        }
+    },
+    "buildCommand": "elias compile {branch}",
+    "compileCommand": "elias compile {branch} -f {filename}"
+}

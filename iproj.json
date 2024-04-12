@@ -1,0 +1,12 @@
+{
+  "description": "From an IBMi Application",
+  "extensions": {
+    "arcad": {
+      "code": "FRMAPP"
+    }
+  },
+  "repository": "git@github.com:fgrumeau/FRMAPP.git",
+  "buildCommand": "elias compile {branch}",
+  "compileCommand": "elias compile {branch} -f {filename}",
+  "curlib": "&CURLIB"
+}

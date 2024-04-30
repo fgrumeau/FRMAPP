@@ -23,7 +23,7 @@
      A*%%TS  SD  20161104  162149  VTAQUIN     REL-V7R1M0  5770-WDS
      A                                      SFLSIZ(0015)
      A                                      SFLPAG(0014)
-     A N80                                  PAGEDOWN(25 'dynamic subfile')
+     A N80                                  PAGEDOWN(25 'Dynamic subfile')
      A                                      OVERLAY
      A  31                                  SFLDSP
      A  32                                  SFLDSPCTL

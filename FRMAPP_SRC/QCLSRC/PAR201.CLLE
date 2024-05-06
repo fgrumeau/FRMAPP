@@ -6,5 +6,6 @@
              DCL        VAR(&SUBCODE) TYPE(*CHAR) LEN(10) VALUE(' ')
              CALLPRC    PRC(GETPARM2) PARM((&CODE *BYVAL) (&SUBCODE +
                           *BYVAL)) RTNVAL(&PATH)
+            /* Test FGR via Jenkins */
              CHGVAR     VAR(&PATH) VALUE(&PATH *TCAT '*')
              WRKLNK     OBJ(&PATH)
